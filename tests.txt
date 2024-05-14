@@ -1,0 +1,6 @@
+﻿Part 3: 
+
+
+1. We used the pingall command to test the functionality of sending traffic between various hosts.
+2. To verify the shortest path rules were installed correctly, we used the sudo ovs-ofctl dump-flows command.
+3. We also tested the change in topology by modifying the network topo;ogy by using mininet commands

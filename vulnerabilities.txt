@@ -1,0 +1,15 @@
+﻿Part 3 : 
+
+
+
+
+Authentication : Current implementation does not include any authentication. This could allow unauthorized entities to connect.
+
+
+Part 4 : 
+
+
+DoS attacks : 
+
+
+In the load balancer module, we install flow rules based on incoming TCP SYN packets without any rate limiting mechanisms which means any attacker could exploit by sending a large number of TCP SYN packets with different source IP addresses and ports.
