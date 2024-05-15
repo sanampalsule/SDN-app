@@ -1,0 +1,223 @@
+mininet@mininet-VirtualBox:~/openflow$ ant
+Buildfile: /home/mininet/openflow/build.xml
+
+init:
+
+floodlight:
+
+init:
+
+compile:
+
+dist:
+      [jar] Building jar: /home/mininet/openflow/floodlight-plus/target/floodlight.jar
+
+compile:
+    [javac] Compiling 1 source file to /home/mininet/openflow/bin
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:244: error: cannot find symbol
+    [javac]     private Map<Link, LinkInfo> getLinkInfo() {
+    [javac]                       ^
+    [javac]   symbol:   class LinkInfo
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: cannot find symbol
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                                                  ^
+    [javac]   symbol:   class LinkInfo
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:440: error: cannot find symbol
+    [javac]     private List<Link> getNeighborLinks(Host host, Map<Link, LinkInfo> links) {
+    [javac]                                                              ^
+    [javac]   symbol:   class LinkInfo
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:464: error: cannot find symbol
+    [javac]     private Link getLinkBetweenHosts(Host h1, Host h2, Map<Link, LinkInfo> links) {
+    [javac]                                                                  ^
+    [javac]   symbol:   class LinkInfo
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:193: error: cannot find symbol
+    [javac]         Map<Link, LinkInfo> links = getLinkInfo();
+    [javac]                   ^
+    [javac]   symbol:   class LinkInfo
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:207: error: cannot find symbol
+    [javac]         OFMatch match = new OFMatch();
+    [javac]         ^
+    [javac]   symbol:   class OFMatch
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:207: error: cannot find symbol
+    [javac]         OFMatch match = new OFMatch();
+    [javac]                             ^
+    [javac]   symbol:   class OFMatch
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:208: error: cannot find symbol
+    [javac]         List<OFMatchField> matchFields = new ArrayList<OFMatchField>();
+    [javac]              ^
+    [javac]   symbol:   class OFMatchField
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:208: error: cannot find symbol
+    [javac]         List<OFMatchField> matchFields = new ArrayList<OFMatchField>();
+    [javac]                                                        ^
+    [javac]   symbol:   class OFMatchField
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:209: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.ETH_TYPE, Ethernet.TYPE_IPv4));
+    [javac]                             ^
+    [javac]   symbol:   class OFMatchField
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:209: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.ETH_TYPE, Ethernet.TYPE_IPv4));
+    [javac]                                          ^
+    [javac]   symbol:   variable OFOXMFieldType
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:209: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.ETH_TYPE, Ethernet.TYPE_IPv4));
+    [javac]                                                                   ^
+    [javac]   symbol:   variable Ethernet
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:210: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.IPV4_DST, host.getIPv4Address()));
+    [javac]                             ^
+    [javac]   symbol:   class OFMatchField
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:210: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.IPV4_DST, host.getIPv4Address()));
+    [javac]                                          ^
+    [javac]   symbol:   variable OFOXMFieldType
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:215: error: cannot find symbol
+    [javac]             boolean success = SwitchCommands.removeRules(sw, this.table, match);
+    [javac]                               ^
+    [javac]   symbol:   variable SwitchCommands
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:223: error: cannot find symbol
+    [javac]         OFMatch match = new OFMatch();
+    [javac]         ^
+    [javac]   symbol:   class OFMatch
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:223: error: cannot find symbol
+    [javac]         OFMatch match = new OFMatch();
+    [javac]                             ^
+    [javac]   symbol:   class OFMatch
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:224: error: cannot find symbol
+    [javac]         List<OFMatchField> matchFields = new ArrayList<OFMatchField>();
+    [javac]              ^
+    [javac]   symbol:   class OFMatchField
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:224: error: cannot find symbol
+    [javac]         List<OFMatchField> matchFields = new ArrayList<OFMatchField>();
+    [javac]                                                        ^
+    [javac]   symbol:   class OFMatchField
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:225: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.ETH_TYPE, Ethernet.TYPE_IPv4));
+    [javac]                             ^
+    [javac]   symbol:   class OFMatchField
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:225: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.ETH_TYPE, Ethernet.TYPE_IPv4));
+    [javac]                                          ^
+    [javac]   symbol:   variable OFOXMFieldType
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:225: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.ETH_TYPE, Ethernet.TYPE_IPv4));
+    [javac]                                                                   ^
+    [javac]   symbol:   variable Ethernet
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:226: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.IPV4_DST, dstHost.getIPv4Address()));
+    [javac]                             ^
+    [javac]   symbol:   class OFMatchField
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:226: error: cannot find symbol
+    [javac]         matchFields.add(new OFMatchField(OFOXMFieldType.IPV4_DST, dstHost.getIPv4Address()));
+    [javac]                                          ^
+    [javac]   symbol:   variable OFOXMFieldType
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:232: error: cannot find symbol
+    [javac]             OFAction action = new OFActionOutput(link.getSrcPort());
+    [javac]             ^
+    [javac]   symbol:   class OFAction
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:232: error: cannot find symbol
+    [javac]             OFAction action = new OFActionOutput(link.getSrcPort());
+    [javac]                                   ^
+    [javac]   symbol:   class OFActionOutput
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:233: error: cannot find symbol
+    [javac]             OFInstruction instruction = new OFInstructionApplyActions(Arrays.asList(action));
+    [javac]             ^
+    [javac]   symbol:   class OFInstruction
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:233: error: cannot find symbol
+    [javac]             OFInstruction instruction = new OFInstructionApplyActions(Arrays.asList(action));
+    [javac]                                             ^
+    [javac]   symbol:   class OFInstructionApplyActions
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:235: error: cannot find symbol
+    [javac]             boolean success = SwitchCommands.installRule(sw, this.table, SwitchCommands.DEFAULT_PRIORITY,
+    [javac]                                                                          ^
+    [javac]   symbol:   variable SwitchCommands
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:235: error: cannot find symbol
+    [javac]             boolean success = SwitchCommands.installRule(sw, this.table, SwitchCommands.DEFAULT_PRIORITY,
+    [javac]                               ^
+    [javac]   symbol:   variable SwitchCommands
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:251: error: cannot find symbol
+    [javac]         Set<Host> visited = new HashSet<Host>();
+    [javac]         ^
+    [javac]   symbol:   class Set
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:251: error: cannot find symbol
+    [javac]         Set<Host> visited = new HashSet<Host>();
+    [javac]                                 ^
+    [javac]   symbol:   class HashSet
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:252: error: cannot find symbol
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<Host>(10, new Comparator<Host>() {
+    [javac]         ^
+    [javac]   symbol:   class PriorityQueue
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:252: error: cannot find symbol
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<Host>(10, new Comparator<Host>() {
+    [javac]                                      ^
+    [javac]   symbol:   class PriorityQueue
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:252: error: cannot find symbol
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<Host>(10, new Comparator<Host>() {
+    [javac]                                                                  ^
+    [javac]   symbol:   class Comparator
+    [javac]   location: class ShortestPathSwitching
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:312: error: possible loss of precision
+    [javac]         short dstPort = link.getDstPort();
+    [javac]                                        ^
+    [javac]   required: short
+    [javac]   found:    int
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:443: error: incompatible types
+    [javac]         short port = host.getPort();
+    [javac]                                  ^
+    [javac]   required: short
+    [javac]   found:    Integer
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:454: error: possible loss of precision
+    [javac]         short port = link.getSrcPort();
+    [javac]                                     ^
+    [javac]   required: short
+    [javac]   found:    int
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:466: error: incompatible types
+    [javac]         short srcPort = h1.getPort();
+    [javac]                                   ^
+    [javac]   required: short
+    [javac]   found:    Integer
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:468: error: incompatible types
+    [javac]         short dstPort = h2.getPort();
+    [javac]                                   ^
+    [javac]   required: short
+    [javac]   found:    Integer
+    [javac] 40 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/home/mininet/openflow/build.xml:16: Compile failed; see the compiler error output for details.
+

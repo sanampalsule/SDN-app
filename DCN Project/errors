@@ -1,0 +1,200 @@
+init:
+
+compile:
+
+dist:
+      [jar] Building jar: /home/mininet/openflow/floodlight-plus/target/floodlight.jar
+
+compile:
+    [javac] Compiling 1 source file to /home/mininet/openflow/bin
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:208: error: diamond operator is not supported in -source 1.6
+    [javac]         List<OFMatchField> matchFields = new ArrayList<>();
+    [javac]                                                        ^
+    [javac]   (use -source 7 or higher to enable diamond operator)
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:218: error: illegal character: \160
+    [javac]             }
+    [javac]      ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:218: error: illegal character: \160
+    [javac]             }
+    [javac]       ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:218: error: illegal character: \160
+    [javac]             }
+    [javac]        ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:218: error: illegal character: \160
+    [javac]             }
+    [javac]         ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:218: error: illegal character: \160
+    [javac]             }
+    [javac]          ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:218: error: illegal character: \160
+    [javac]             }
+    [javac]           ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:218: error: illegal character: \160
+    [javac]             }
+    [javac]            ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:219: error: illegal character: \160
+    [javac]         }
+    [javac]     ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:219: error: illegal character: \160
+    [javac]         }
+    [javac]      ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:219: error: illegal character: \160
+    [javac]         }
+    [javac]       ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:219: error: illegal character: \160
+    [javac]         }
+    [javac]        ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:219: error: ';' expected
+    [javac]         }
+    [javac]         ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:222: error: illegal start of expression
+    [javac]     private void installPathRules(Host srcHost, Host dstHost, List<Link> path) {
+    [javac]     ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:222: error: illegal start of expression
+    [javac]     private void installPathRules(Host srcHost, Host dstHost, List<Link> path) {
+    [javac]             ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:222: error: ';' expected
+    [javac]     private void installPathRules(Host srcHost, Host dstHost, List<Link> path) {
+    [javac]                                  ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:222: error: ';' expected
+    [javac]     private void installPathRules(Host srcHost, Host dstHost, List<Link> path) {
+    [javac]                                                     ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:222: error: not a statement
+    [javac]     private void installPathRules(Host srcHost, Host dstHost, List<Link> path) {
+    [javac]                                                      ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:222: error: ';' expected
+    [javac]     private void installPathRules(Host srcHost, Host dstHost, List<Link> path) {
+    [javac]                                                             ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:222: error: ';' expected
+    [javac]     private void installPathRules(Host srcHost, Host dstHost, List<Link> path) {
+    [javac]                                                                              ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:240: error: illegal character: \160
+    [javac]             }
+    [javac]      ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:240: error: illegal character: \160
+    [javac]             }
+    [javac]       ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:240: error: illegal character: \160
+    [javac]             }
+    [javac]        ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:240: error: illegal character: \160
+    [javac]             }
+    [javac]         ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:240: error: illegal character: \160
+    [javac]             }
+    [javac]          ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:240: error: illegal character: \160
+    [javac]             }
+    [javac]           ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:240: error: illegal character: \160
+    [javac]             }
+    [javac]            ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:241: error: illegal character: \160
+    [javac]         }
+    [javac]     ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:241: error: illegal character: \160
+    [javac]         }
+    [javac]      ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:241: error: illegal character: \160
+    [javac]         }
+    [javac]       ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:241: error: illegal character: \160
+    [javac]         }
+    [javac]        ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:241: error: ';' expected
+    [javac]         }
+    [javac]         ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:244: error: illegal start of expression
+    [javac]     private Map<Link, LinkInfo> getLinkInfo() {
+    [javac]     ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:244: error: ';' expected
+    [javac]     private Map<Link, LinkInfo> getLinkInfo() {
+    [javac]                                            ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: illegal start of expression
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]     ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: ';' expected
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                       ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: ';' expected
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                            ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: illegal start of expression
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                              ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: illegal start of expression
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                                      ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: ';' expected
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                                           ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: illegal start of expression
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                                                            ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: illegal start of expression
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                                                                 ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: ';' expected
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                                                                      ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: illegal start of expression
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                                                                                      ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: illegal start of expression
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                                                                                           ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:248: error: ';' expected
+    [javac]     private Map<Host, List<Link>> computeShortestPaths(Host sourceHost, Map<Long, IOFSwitch> switches, Map<Link, LinkInfo> links, Map<IDevice, Host> hosts) {
+    [javac]                                                                                                                                                            ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:252: error: ')' expected
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<>(Comparator.comparingInt(distances::get));
+    [javac]                                                                                       ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:252: error: ';' expected
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<>(Comparator.comparingInt(distances::get));
+    [javac]                                                                                        ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:252: error: not a statement
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<>(Comparator.comparingInt(distances::get));
+    [javac]                                                                                         ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:252: error: ';' expected
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<>(Comparator.comparingInt(distances::get));
+    [javac]                                                                                            ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:306: error: illegal start of expression
+    [javac]     private Host getHostFromLink(Link link, Map<IDevice, Host> hosts) {
+    [javac]     ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:306: error: ';' expected
+    [javac]     private Host getHostFromLink(Link link, Map<IDevice, Host> hosts) {
+    [javac]                                 ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:306: error: ';' expected
+    [javac]     private Host getHostFromLink(Link link, Map<IDevice, Host> hosts) {
+    [javac]                                                ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:306: error: illegal start of expression
+    [javac]     private Host getHostFromLink(Link link, Map<IDevice, Host> hosts) {
+    [javac]                                                                ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:306: error: illegal start of expression
+    [javac]     private Host getHostFromLink(Link link, Map<IDevice, Host> hosts) {
+    [javac]                                                                     ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:306: error: ';' expected
+    [javac]     private Host getHostFromLink(Link link, Map<IDevice, Host> hosts) {
+    [javac]                                                                      ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:315: error: illegal character: \160
+    [javac]         return null;
+    [javac]       ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:315: error: illegal character: \160
+    [javac]         return null;
+    [javac]        ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:315: error: ';' expected
+    [javac]         return null;
+    [javac]         ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:315: error: illegal character: \160
+    [javac]         return null;
+    [javac]               ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:315: error: ';' expected
+    [javac]         return null;
+    [javac]                ^
+    [javac] 61 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/home/mininet/openflow/build.xml:16: Compile failed; see the compiler error output for details.
+

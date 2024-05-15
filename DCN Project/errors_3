@@ -1,0 +1,35 @@
+mininet@mininet-VirtualBox:~/openflow$ ant
+Buildfile: /home/mininet/openflow/build.xml
+
+init:
+
+floodlight:
+
+init:
+
+compile:
+
+dist:
+      [jar] Building jar: /home/mininet/openflow/floodlight-plus/target/floodlight.jar
+
+compile:
+    [javac] Compiling 1 source file to /home/mininet/openflow/bin
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:208: error: ')' expected
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<Host>(Comparator.comparingInt(distances::get));
+    [javac]                                                                                           ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:208: error: ';' expected
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<Host>(Comparator.comparingInt(distances::get));
+    [javac]                                                                                            ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:208: error: not a statement
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<Host>(Comparator.comparingInt(distances::get));
+    [javac]                                                                                             ^
+    [javac] /home/mininet/openflow/src/edu/brown/cs/sdn/apps/sps/ShortestPathSwitching.java:208: error: ';' expected
+    [javac]         PriorityQueue<Host> pq = new PriorityQueue<Host>(Comparator.comparingInt(distances::get));
+    [javac]                                                                                                ^
+    [javac] 4 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/home/mininet/openflow/build.xml:16: Compile failed; see the compiler error output for details.
+

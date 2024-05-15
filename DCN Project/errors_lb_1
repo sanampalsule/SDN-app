@@ -1,0 +1,371 @@
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:153: error: cannot find symbol
+    [javac]             SwitchCommands.installRule(sw, this.table, SwitchCommands.DEFAULT_PRIORITY + 1, match, instructionList, IDLE_TIMEOUT, (short) 0);
+    [javac]             ^
+    [javac]   symbol:   variable SwitchCommands
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:156: error: cannot find symbol
+    [javac]             match = new OFMatch();
+    [javac]                         ^
+    [javac]   symbol:   class OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:159: error: cannot find symbol
+    [javac]             match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_DST_ALL);
+    [javac]                                ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:159: error: cannot find symbol
+    [javac]             match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_DST_ALL);
+    [javac]                                                    ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:159: error: cannot find symbol
+    [javac]             match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_DST_ALL);
+    [javac]                                                                            ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:163: error: cannot find symbol
+    [javac]             applyActions = new OFInstructionApplyActions(actionList);
+    [javac]                                ^
+    [javac]   symbol:   class OFInstructionApplyActions
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:166: error: cannot find symbol
+    [javac]             SwitchCommands.installRule(sw, this.table, SwitchCommands.DEFAULT_PRIORITY + 1, match, instructionList, (short) 0, (short) 0);
+    [javac]                                                        ^
+    [javac]   symbol:   variable SwitchCommands
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:166: error: cannot find symbol
+    [javac]             SwitchCommands.installRule(sw, this.table, SwitchCommands.DEFAULT_PRIORITY + 1, match, instructionList, (short) 0, (short) 0);
+    [javac]             ^
+    [javac]   symbol:   variable SwitchCommands
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:176: error: cannot find symbol
+    [javac]             IPv4 ipv4 = (IPv4) eth.getPayload();
+    [javac]             ^
+    [javac]   symbol:   class IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:176: error: cannot find symbol
+    [javac]             IPv4 ipv4 = (IPv4) eth.getPayload();
+    [javac]                          ^
+    [javac]   symbol:   class IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:177: error: cannot find symbol
+    [javac]             if (ipv4.getProtocol() == IPv4.PROTOCOL_TCP) {
+    [javac]                                       ^
+    [javac]   symbol:   variable IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:178: error: cannot find symbol
+    [javac]                 TCP tcp = (TCP) ipv4.getPayload();
+    [javac]                 ^
+    [javac]   symbol:   class TCP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:178: error: cannot find symbol
+    [javac]                 TCP tcp = (TCP) ipv4.getPayload();
+    [javac]                            ^
+    [javac]   symbol:   class TCP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:184: error: cannot find symbol
+    [javac]                         String hostIP = instance.getHosts().get(0); // Simplified for example
+    [javac]                                                 ^
+    [javac]   symbol:   method getHosts()
+    [javac]   location: variable instance of type LoadBalancerInstance
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:185: error: cannot find symbol
+    [javac]                         int hostIpAddr = IPv4.toIPv4Address(hostIP);
+    [javac]                                          ^
+    [javac]   symbol:   variable IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:189: error: cannot find symbol
+    [javac]                         match = new OFMatch();
+    [javac]                         ^
+    [javac]   symbol:   variable match
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:189: error: cannot find symbol
+    [javac]                         match = new OFMatch();
+    [javac]                                     ^
+    [javac]   symbol:   class OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:190: error: cannot find symbol
+    [javac]                         match.setDataLayerType(Ethernet.TYPE_IPv4);
+    [javac]                         ^
+    [javac]   symbol:   variable match
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:191: error: cannot find symbol
+    [javac]                         match.setNetworkProtocol(IPv4.PROTOCOL_TCP);
+    [javac]                                                  ^
+    [javac]   symbol:   variable IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:191: error: cannot find symbol
+    [javac]                         match.setNetworkProtocol(IPv4.PROTOCOL_TCP);
+    [javac]                         ^
+    [javac]   symbol:   variable match
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:192: error: cannot find symbol
+    [javac]                         match.setNetworkSource(ipv4.getSourceAddress());
+    [javac]                         ^
+    [javac]   symbol:   variable match
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:193: error: cannot find symbol
+    [javac]                         match.setNetworkDestination(vip);
+    [javac]                         ^
+    [javac]   symbol:   variable match
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:194: error: cannot find symbol
+    [javac]                         match.setTransportSource(tcp.getSourcePort());
+    [javac]                         ^
+    [javac]   symbol:   variable match
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:195: error: cannot find symbol
+    [javac]                         match.setTransportDestination(tcp.getDestinationPort());
+    [javac]                         ^
+    [javac]   symbol:   variable match
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:196: error: cannot find symbol
+    [javac]                         match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_PROTO ^ OFMatch.OFPFW_NW_SRC_ALL ^ OFMatch.OFPFW_NW_DST_ALL ^ OFMatch.OFPFW_TP_SRC ^ OFMatch.OFPFW_TP_DST);
+    [javac]                                            ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:196: error: cannot find symbol
+    [javac]                         match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_PROTO ^ OFMatch.OFPFW_NW_SRC_ALL ^ OFMatch.OFPFW_NW_DST_ALL ^ OFMatch.OFPFW_TP_SRC ^ OFMatch.OFPFW_TP_DST);
+    [javac]                                                                ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:196: error: cannot find symbol
+    [javac]                         match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_PROTO ^ OFMatch.OFPFW_NW_SRC_ALL ^ OFMatch.OFPFW_NW_DST_ALL ^ OFMatch.OFPFW_TP_SRC ^ OFMatch.OFPFW_TP_DST);
+    [javac]                                                                                        ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:196: error: cannot find symbol
+    [javac]                         match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_PROTO ^ OFMatch.OFPFW_NW_SRC_ALL ^ OFMatch.OFPFW_NW_DST_ALL ^ OFMatch.OFPFW_TP_SRC ^ OFMatch.OFPFW_TP_DST);
+    [javac]                                                                                                                 ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:196: error: cannot find symbol
+    [javac]                         match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_PROTO ^ OFMatch.OFPFW_NW_SRC_ALL ^ OFMatch.OFPFW_NW_DST_ALL ^ OFMatch.OFPFW_TP_SRC ^ OFMatch.OFPFW_TP_DST);
+    [javac]                                                                                                                                            ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:196: error: cannot find symbol
+    [javac]                         match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_PROTO ^ OFMatch.OFPFW_NW_SRC_ALL ^ OFMatch.OFPFW_NW_DST_ALL ^ OFMatch.OFPFW_TP_SRC ^ OFMatch.OFPFW_TP_DST);
+    [javac]                                                                                                                                                                       ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:196: error: cannot find symbol
+    [javac]                         match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_PROTO ^ OFMatch.OFPFW_NW_SRC_ALL ^ OFMatch.OFPFW_NW_DST_ALL ^ OFMatch.OFPFW_TP_SRC ^ OFMatch.OFPFW_TP_DST);
+    [javac]                                                                                                                                                                                              ^
+    [javac]   symbol:   variable OFMatch
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:196: error: cannot find symbol
+    [javac]                         match.setWildcards(OFMatch.OFPFW_ALL ^ OFMatch.OFPFW_DL_TYPE ^ OFMatch.OFPFW_NW_PROTO ^ OFMatch.OFPFW_NW_SRC_ALL ^ OFMatch.OFPFW_NW_DST_ALL ^ OFMatch.OFPFW_TP_SRC ^ OFMatch.OFPFW_TP_DST);
+    [javac]                         ^
+    [javac]   symbol:   variable match
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:198: error: cannot find symbol
+    [javac]                         actionList.clear();
+    [javac]                         ^
+    [javac]   symbol:   variable actionList
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:199: error: cannot find symbol
+    [javac]                         OFActionSetField setFieldIp = new OFActionSetField(OFOXMFieldType.IPV4_DST, hostIpAddr);
+    [javac]                         ^
+    [javac]   symbol:   class OFActionSetField
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:199: error: cannot find symbol
+    [javac]                         OFActionSetField setFieldIp = new OFActionSetField(OFOXMFieldType.IPV4_DST, hostIpAddr);
+    [javac]                                                           ^
+    [javac]   symbol:   class OFActionSetField
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:199: error: cannot find symbol
+    [javac]                         OFActionSetField setFieldIp = new OFActionSetField(OFOXMFieldType.IPV4_DST, hostIpAddr);
+    [javac]                                                                            ^
+    [javac]   symbol:   variable OFOXMFieldType
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:200: error: cannot find symbol
+    [javac]                         OFActionSetField setFieldMac = new OFActionSetField(OFOXMFieldType.ETH_DST, hostMacAddr.toBytes());
+    [javac]                         ^
+    [javac]   symbol:   class OFActionSetField
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:200: error: cannot find symbol
+    [javac]                         OFActionSetField setFieldMac = new OFActionSetField(OFOXMFieldType.ETH_DST, hostMacAddr.toBytes());
+    [javac]                                                            ^
+    [javac]   symbol:   class OFActionSetField
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:200: error: cannot find symbol
+    [javac]                         OFActionSetField setFieldMac = new OFActionSetField(OFOXMFieldType.ETH_DST, hostMacAddr.toBytes());
+    [javac]                                                                             ^
+    [javac]   symbol:   variable OFOXMFieldType
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:201: error: cannot find symbol
+    [javac]                         actionList.add(setFieldIp);
+    [javac]                         ^
+    [javac]   symbol:   variable actionList
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:202: error: cannot find symbol
+    [javac]                         actionList.add(setFieldMac);
+    [javac]                         ^
+    [javac]   symbol:   variable actionList
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:203: error: cannot find symbol
+    [javac]                         actionList.add(new OFActionOutput(IOFSwitch.Port.NORMAL));
+    [javac]                                            ^
+    [javac]   symbol:   class OFActionOutput
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:203: error: cannot find symbol
+    [javac]                         actionList.add(new OFActionOutput(IOFSwitch.Port.NORMAL));
+    [javac]                                                                    ^
+    [javac]   symbol:   variable Port
+    [javac]   location: interface IOFSwitch
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:203: error: cannot find symbol
+    [javac]                         actionList.add(new OFActionOutput(IOFSwitch.Port.NORMAL));
+    [javac]                         ^
+    [javac]   symbol:   variable actionList
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:204: error: cannot find symbol
+    [javac]                         applyActions = new OFInstructionApplyActions(actionList);
+    [javac]                         ^
+    [javac]   symbol:   variable applyActions
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:204: error: cannot find symbol
+    [javac]                         applyActions = new OFInstructionApplyActions(actionList);
+    [javac]                                            ^
+    [javac]   symbol:   class OFInstructionApplyActions
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:204: error: cannot find symbol
+    [javac]                         applyActions = new OFInstructionApplyActions(actionList);
+    [javac]                                                                      ^
+    [javac]   symbol:   variable actionList
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:205: error: cannot find symbol
+    [javac]                         instructionList.clear();
+    [javac]                         ^
+    [javac]   symbol:   variable instructionList
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:206: error: cannot find symbol
+    [javac]                         instructionList.add(applyActions);
+    [javac]                                             ^
+    [javac]   symbol:   variable applyActions
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:206: error: cannot find symbol
+    [javac]                         instructionList.add(applyActions);
+    [javac]                         ^
+    [javac]   symbol:   variable instructionList
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:207: error: cannot find symbol
+    [javac]                         SwitchCommands.installRule(sw, this.table, (short) (SwitchCommands.DEFAULT_PRIORITY + 2), match, instructionList, IDLE_TIMEOUT, (short) 0);
+    [javac]                                                                             ^
+    [javac]   symbol:   variable SwitchCommands
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:207: error: cannot find symbol
+    [javac]                         SwitchCommands.installRule(sw, this.table, (short) (SwitchCommands.DEFAULT_PRIORITY + 2), match, instructionList, IDLE_TIMEOUT, (short) 0);
+    [javac]                                                                                                                   ^
+    [javac]   symbol:   variable match
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:207: error: cannot find symbol
+    [javac]                         SwitchCommands.installRule(sw, this.table, (short) (SwitchCommands.DEFAULT_PRIORITY + 2), match, instructionList, IDLE_TIMEOUT, (short) 0);
+    [javac]                                                                                                                          ^
+    [javac]   symbol:   variable instructionList
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:207: error: cannot find symbol
+    [javac]                         SwitchCommands.installRule(sw, this.table, (short) (SwitchCommands.DEFAULT_PRIORITY + 2), match, instructionList, IDLE_TIMEOUT, (short) 0);
+    [javac]                         ^
+    [javac]   symbol:   variable SwitchCommands
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:215: error: cannot find symbol
+    [javac]             } else if (ipv4.getProtocol() == IPv4.PROTOCOL_ARP) {
+    [javac]                                              ^
+    [javac]   symbol:   variable IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:216: error: cannot find symbol
+    [javac]                 ARP arp = (ARP) ipv4.getPayload();
+    [javac]                 ^
+    [javac]   symbol:   class ARP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:216: error: cannot find symbol
+    [javac]                 ARP arp = (ARP) ipv4.getPayload();
+    [javac]                            ^
+    [javac]   symbol:   class ARP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:217: error: cannot find symbol
+    [javac]                 if (arp.getOpCode() == ARP.OP_REQUEST) {
+    [javac]                                        ^
+    [javac]   symbol:   variable ARP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:218: error: cannot find symbol
+    [javac]                     int targetProtocolAddress = IPv4.toIPv4Address(arp.getTargetProtocolAddress());
+    [javac]                                                 ^
+    [javac]   symbol:   variable IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:235: error: cannot find symbol
+    [javac]         IPv4 ipv4Reply = new IPv4();
+    [javac]         ^
+    [javac]   symbol:   class IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:235: error: cannot find symbol
+    [javac]         IPv4 ipv4Reply = new IPv4();
+    [javac]                              ^
+    [javac]   symbol:   class IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:238: error: cannot find symbol
+    [javac]         ipv4Reply.setProtocol(IPv4.PROTOCOL_TCP);
+    [javac]                               ^
+    [javac]   symbol:   variable IPv4
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:240: error: cannot find symbol
+    [javac]         TCP tcpReply = new TCP();
+    [javac]         ^
+    [javac]   symbol:   class TCP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:240: error: cannot find symbol
+    [javac]         TCP tcpReply = new TCP();
+    [javac]                            ^
+    [javac]   symbol:   class TCP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:243: error: cannot find symbol
+    [javac]         tcpReply.setFlags(TCP_FLAG_RST);
+    [javac]                           ^
+    [javac]   symbol:   variable TCP_FLAG_RST
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:251: error: cannot find symbol
+    [javac]         SwitchCommands.sendPacket(sw, (short)pktIn.getInPort(), ethReply);
+    [javac]         ^
+    [javac]   symbol:   variable SwitchCommands
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:255: error: cannot find symbol
+    [javac]         ARP arpReply = new ARP();
+    [javac]         ^
+    [javac]   symbol:   class ARP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:255: error: cannot find symbol
+    [javac]         ARP arpReply = new ARP();
+    [javac]                            ^
+    [javac]   symbol:   class ARP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:256: error: cannot find symbol
+    [javac]         arpReply.setHardwareType(ARP.HW_TYPE_ETHERNET);
+    [javac]                                  ^
+    [javac]   symbol:   variable ARP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:257: error: cannot find symbol
+    [javac]         arpReply.setProtocolType(ARP.PROTO_TYPE_IP);
+    [javac]                                  ^
+    [javac]   symbol:   variable ARP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:260: error: cannot find symbol
+    [javac]         arpReply.setOpCode(ARP.OP_REPLY);
+    [javac]                            ^
+    [javac]   symbol:   variable ARP
+    [javac]   location: class LoadBalancer
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:261: error: cannot find symbol
+    [javac]         arpReply.setSenderHardwareAddress(instance.getVirtualMAC().toBytes());
+    [javac]                                                                   ^
+    [javac]   symbol:   method toBytes()
+    [javac]   location: class byte[]
+    [javac] /home/mininet/project3/src/edu/wisc/cs/sdn/apps/loadbalancer/LoadBalancer.java:268: error: cannot find symbol
+    [javac]         ethReply.setSourceMACAddress(instance.getVirtualMAC().toBytes());
+    [javac]                                                              ^
+    [javac]   symbol:   method toBytes()
+    [javac]   location: class byte[]
+    [javac] 100 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/home/mininet/project3/build.xml:16: Compile failed; see the compiler error output for details.
+
